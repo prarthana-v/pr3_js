@@ -1,0 +1,20 @@
+<script>
+     // 12.Write javascript program Check weather num is prime or not using while loop
+     var num = parseInt(prompt("Enter any number :-"));
+     var flg=0;
+     let i=2;
+
+     while (i<num) {
+          if(num%i==0){
+               flg=1;
+               break;
+          }
+          i++;
+     }
+     if(flg==1){
+          document.write("<h2>Not Prime number....</h2>");
+     }
+     else{
+          document.write("<h2>Prime number....</h2>");
+     }
+</script>

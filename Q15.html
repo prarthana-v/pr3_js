@@ -1,0 +1,57 @@
+<!--15. Weite javascript star pattern print using while loop
+
+* * * * * * * * * *
+* * * *     * * * *
+* * *         * * *
+* *             * *
+*                 *
+*                 *
+* *             * *
+* * *         * * *
+* * * *     * * * *
+* * * * * * * * * *-->
+<script>
+     var i=5;
+     while(i>=1){
+          var j=1;
+          while (j<=i) {
+               document.write(`* `);
+               j++;
+          }
+          var s=5;
+          while (s>i) {
+               document.write(`&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp`);
+               s--;
+          }
+          var k=1;
+          while (k<=i) {
+               document.write(`* `);
+               k++;
+          }
+          document.write(`<br>`);
+          i--;
+     }
+
+     var t=1;
+     while (t<=5) {
+          var u=1;
+          while (u<=t) {
+               document.write(`* `);
+               u++;
+          }
+
+          var v=5;
+          while (v>t) {
+               document.write(`&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp`);
+               v--;
+          }
+
+          var w=1;
+          while (w<=t) {
+               document.write(`* `);
+               w++;
+          }
+          document.write(`<br>`);
+          t++;
+     }
+</script>

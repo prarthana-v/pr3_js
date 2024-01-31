@@ -1,0 +1,13 @@
+<!-- 13.Write javascript program print out Fibonacci series. (0,1,1,2,3,5,8…) -->
+<script>
+     var n1=0,n2=1,n3;
+     var num = parseInt(prompt(`Enter any number :-`));
+
+     document.write(`${n1} ${n2} `);
+     for(var i=0;i<num-2;i++){
+          n3=n1+n2;
+          n1=n2;
+          n2=n3;
+          document.write(`${n3} `);
+     }
+</script>
